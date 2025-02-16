@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    padding: 10px;
+    width: 460px;
+    background-color: maroon;
+    color: white;
+    border: 0.5rem solid black;
+    border-radius: 1.5rem;
+}
+
+#heading {
+    margin-top: 10px;
+    text-align-last: center;
+    color: rgb(233, 254, 4);
+}
+
+#btn {
+    width: 100%;
+    height: 35px;
+    margin: 1.6rem;
+    margin-left: 0;
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius: 0.6rem;
+    font-size: larger;
+}
+
+#questionbox {
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.options {
+    margin: 1.7rem;
+}
+
+#sb-Btn {
+    width: 100%;
+    height: 30px;
+    background-color: cadetblue;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
