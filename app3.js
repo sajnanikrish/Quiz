@@ -87,7 +87,7 @@ let incorrect = 0;
 let total = quiz3Data.length;
 let questionBox = document.querySelector("#questionbox");
 let allInputs = document.querySelectorAll(".options");
-
+const data = quiz3Data[index]; 
 
 const loadQuestion = () => {
     

@@ -91,6 +91,7 @@ let incorrect = 0;
 let total = quiz2Data.length; 
 let questionBox = document.querySelector("#questionbox"); 
 let allInputs = document.querySelectorAll(".options"); 
+const data = quiz2Data[index];
 
 const loadQuestion = () => {
     
